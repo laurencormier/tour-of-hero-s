@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { HEROES} from '../mock-heroes';
+import {HEROES} from '../mock-heroes';
 import { HeroService } from '../hero.service';
 import { Hero } from '../Hero.class';
-
 
 @Component({
   selector: 'app-dashboard',
